@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-color: blue;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{ 
+    color: white;
+    text-decoration: none;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.7s ease;
+}
+
+.logo:hover{
+    color: yellow;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.navigation a{ 
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    padding-left: 30px;
+    transition: 0.7s ease;
+}
+
+.navigation a:hover{ 
+    color: yellow;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.contant { 
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 100px 200px;
+}
+
+.main h2 {
+    color: rgb(147, 3, 190);
+    font-size: 70px;
+    position: absolute;
+    top: 30vh;
+    transition: 0.7s ease;
+}
+
+.main h2:hover{
+    color: yellow;
+    transform: scale(1.1);
+}
+
+.main p {
+    color: rgb(147, 3, 190);
+    font-size: 20px;
+    position: absolute;
+    top: 350px;
+}
+
+.main img{
+    position: absolute;
+    left: 45%;
+    width: 800px;
+}
+
+.btn a{
+    position: absolute;
+    left: 12%;
+    top: 470px;
+    font-size: 20px;
+    transition: 0.7s ease;
+    color: rgb(147, 3, 190);
+    
+}
+
+.btn :hover{
+    color: yellow;
+    transform: scale(1.1);
+    background-color: blue;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.social-icons a{
+    color: rgb(147, 3, 190);
+    font-size: 1.7em;
+    padding-right: 30px;
+    position:relative;
+    top: 450px;
+    right: 910px;
+    transition: 0.7s ease;
+}
+
+.social-icons a:hover{
+    color: yellow;
+    transform: scale(1.1);
+}
+
+/* From uiverse.io by @gagan-gv */
+.spinner {
+    height: 50vh;
+    width: max-content;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: monospace;
+    letter-spacing: 1em;
+    color: rgb(147, 3, 190);
+    filter: drop-shadow(0 0 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 43%;
+    top: 100px;
+   }
+   
+   .spinner span {
+    animation: loading6454 1.75s ease infinite;
+   }
+   
+   .spinner span:nth-child(2) {
+    animation-delay: 0.25s;
+   }
+   
+   .spinner span:nth-child(3) {
+    animation-delay: 0.5s;
+   }
+   
+   .spinner span:nth-child(4) {
+    animation-delay: 0.75s;
+   }
+   
+   .spinner span:nth-child(5) {
+    animation-delay: 1s;
+   }
+   
+   .spinner span:nth-child(6) {
+    animation-delay: 1.25s;
+   }
+   
+   .spinner span:nth-child(7) {
+    animation-delay: 1.5s;
+   }
+   
+   @keyframes loading6454 {
+    0%, 100% {
+     transform: translateY(0);
+    }
+   
+    50% {
+     transform: translateY(-10px);
+    }
+   }
+
+.container img {
+    width: 350px;
+    margin-left: 10px;
+    padding: 1px;
+    margin: 40px;
+    transition: 0.7s ease;
+    border: 0.5px solid black;
+}
+.container img:hover{
+    transform:scale(1.1);
+}
+
+.container a {
+    display: inline-block;
+    position: absolute;
+    top: 240px;
+    left: 180px;
+    padding-bottom: 20px;
+    transition: 0.7s ease;
+    font-size: 20px;
+}
+
+.container a:hover{
+    color: rgb(147, 3, 190);
+    transform:scale(1.1);
+    text-decoration: none;
+}
+
